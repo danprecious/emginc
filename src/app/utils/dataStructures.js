@@ -2,6 +2,7 @@
 //  In the services pages, these would just be highlight... and then they can see more
 
 
+
 import {
   FaBox,
   FaBullhorn,
@@ -310,6 +311,7 @@ export const processes = [
 
 export const reviewsData = [
   {
+    id: 1,
     name: "Aisha K.",
     location: "Lagos, Nigeria",
     image: "",
@@ -317,6 +319,7 @@ export const reviewsData = [
       "I was impressed with the level of professionalism and creativity VistaVibe brought to our project. From the initial consultation to the final implementation, their team was always available to answer questions and provide guidance. The marketing campaign they developed for us was innovative and effective, helping us reach a wider audience than we ever imagined. VistaVibe is a partner you can trust!",
   },
   {
+    id: 2,
     name: "Emeka O.",
     location: "Abuja, Nigeria",
     image: "",
@@ -324,6 +327,7 @@ export const reviewsData = [
       "Working with VistaVibe Marketing was a refreshing experience. They understood our local market and tailored their strategies to meet our specific needs. Their expertise in digital marketing helped us connect with our audience in ways we hadn’t considered before. The results were beyond our expectations, and we’ve seen a significant boost in customer engagement. I highly recommend VistaVibe!",
   },
   {
+    id: 3,
     name: "Sarah P.",
     location: "London, UK",
     image: "",
@@ -331,6 +335,7 @@ export const reviewsData = [
       "VistaVibe Marketing is simply outstanding. They took our brand to new heights with their tailored strategies and insightful recommendations. Their deep understanding of the digital landscape and ability to adapt quickly to changes gave us a competitive edge. Our brand’s visibility has improved dramatically, and we’ve received countless positive feedback from our customers. Thank you, VistaVibe, for your exceptional service!",
   },
   {
+    id: 4,
     name: "James T.",
     location: "Manchester, UK",
     image: "",
@@ -338,6 +343,7 @@ export const reviewsData = [
       "Our experience with VistaVibe Marketing has been nothing short of exceptional. They brought fresh ideas and a clear vision that aligned perfectly with our goals. The execution was flawless, and the results were immediate. We’ve seen a dramatic increase in website traffic and customer engagement. VistaVibe is a marketing powerhouse that delivers real results!",
   },
   {
+    id: 5,
     name: "Sophie L.",
     location: "Toronto, Canada",
     image: "",
@@ -345,6 +351,7 @@ export const reviewsData = [
       "The results speak for themselves! VistaVibe's approach to marketing is both innovative and strategic. They helped us create a cohesive brand message that resonates with our target audience. The team’s dedication and expertise have been instrumental in growing our brand, and their personalized service made us feel valued every step of the way. We look forward to continuing our partnership with them!",
   },
   {
+    id: 6,
     name: "Liam W.",
     location: "Vancouver, Canada",
     image: "",

@@ -22,10 +22,9 @@ const AboutPage = () => {
               crafting strategies that not only meet but exceed your
               expectations. We believe in building strong partnerships and
               delivering tailored services that create meaningful impact.
-              <br />
-              <br />
+              <br /> <br />
               From our early days to becoming a leader in the marketing
-              industry, we've continuously evolved to stay ahead of market
+              industry, we&apos;ve continuously evolved to stay ahead of market
               trends. Our commitment to excellence and client satisfaction has
               been the cornerstone of our success. We take pride in our ability
               to adapt and innovate, ensuring that every campaign and project we
