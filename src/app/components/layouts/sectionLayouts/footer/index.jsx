@@ -17,7 +17,7 @@ const Footer = () => {
           {links.map((link, index) => {
             return (
               <div key={link.name} className="text-white">
-                <p className="font-semibold text-[1.2rem] py-5 text-gradient">{link.name}</p>
+                <Link href={link.href} className="font-semibold text-[1.2rem] py-5 text-gradient">{link.name}</Link>
                 <div className="flex flex-col">
                   {link.subLinks.map((item, index) => {
                     return <Link key={item.id} className="py-3 text-sm" href={item.href}>{item.name}</Link>;

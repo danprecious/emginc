@@ -14,7 +14,7 @@ const WorkCards = () => {
         return (
           <div
             key={work.id}
-            className="lg:h-[60vh] lg:w-[15em] flex flex-col shadow-lg relative"
+            className="h-[60vh] w-[15em]  lg:w-[15em] flex flex-col shadow-lg relative"
           >
             <div className="h-[80%] bg-purple-600">
             <Image

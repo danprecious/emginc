@@ -25,7 +25,7 @@ export const MobileNavButton = () => {
 };
 
 export const MobileNavBody = () => {
-  const { menuOpen } = useContext(MobileNavContext);
+  const { menuOpen, setMenuOpen } = useContext(MobileNavContext);
 
   return (
     menuOpen && (
@@ -35,17 +35,32 @@ export const MobileNavBody = () => {
         </div>
 
         <div className="w-full justify-center flex py-5 px-3">
-        <CustomButton href="/contactUs" text="Get in touch" />
+          <CustomButton href="/contactUs" text="Get in touch" />
         </div>
 
         <div className="my-grid px-3 py-4">
           {links.map((link, index) => {
             return (
               <div key={link.id} className="text-white">
-                <p className="font-semibold text-[1.5rem] py-5">{link.name}</p>
+                <Link
+                  href={link.href}
+                  onClick={() => setMenuOpen(false)}
+                  className="font-semibold text-[1.5rem] py-5"
+                >
+                  {link.name}
+                </Link>
                 <div className="flex flex-col">
                   {link.subLinks.map((item, index) => {
-                    return <Link key={item.id} className="py-3 px-3" href={item.href}>{item.name}</Link>;
+                    return (
+                      <Link
+                        key={item.id}
+                        onClick={() => setMenuOpen(false)}
+                        className="py-3 px-3"
+                        href={item.href}
+                      >
+                        {item.name}
+                      </Link>
+                    );
                   })}
                 </div>
               </div>
@@ -53,8 +68,9 @@ export const MobileNavBody = () => {
           })}
         </div>
 
-
-        <div className="font-bold text-white text-[2rem] py-4 px-4">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        <div className="font-bold text-white text-[2rem] py-4 px-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </div>
       </div>
     )
   );

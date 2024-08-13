@@ -3,6 +3,7 @@ import CenteredSection from "@/app/components/layouts/sectionLayouts/centeredSec
 import CtaSection from "@/app/components/layouts/sectionLayouts/ctaSection";
 import Footer from "@/app/components/layouts/sectionLayouts/footer";
 import { milestones, teamMembers } from "@/app/utils/dataStructures";
+import Image from "next/image";
 import React from "react";
 
 const AboutPage = () => {
@@ -10,7 +11,15 @@ const AboutPage = () => {
     <PageLayout title="Who We Are">
       <div className="lg:px-10 px-6">
         <div className="lg:flex lg:px-5 px-1 lg:my-10 items-center">
-          <div className="lg:w-[50%] bg-purple-800 lg:h-[50vh] rounded-lg"></div>
+          <div className="lg:w-[50%] bg-purple-800 lg:h-[50vh] rounded-lg">
+            <Image
+              src="/digital-marketing.webp"
+              width={1000}
+              height={1000}
+              className="w-full h-full object-cover rounded-[2em]"
+              alt="business agency team"
+            />
+          </div>
           <div className="lg:w-[50%] flex flex-col justify-center lg:p-8 lg:ml-20">
             <h3 className="text-[1.2rem] mb-3 font-semibold">Our Story</h3>
             <p>
@@ -49,7 +58,15 @@ const AboutPage = () => {
                 );
               })}
             </div>
-            <div className="lg:w-[50%] mb-10 lg:mb-0 bg-purple-800 h-[100vh]"></div>
+            <div className="lg:w-[50%] mb-10 lg:mb-0 bg-purple-800 h-[100vh]">
+              <Image
+                src="/entrepreneur.webp"
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover rounded-[2em]"
+                alt="business agency team"
+              />
+            </div>
           </div>
         </CenteredSection>
 
@@ -68,18 +85,22 @@ const AboutPage = () => {
                   key={member.id}
                   className={`${member.xposition} flex flex-col lg:flex-row my-16 text-black`}
                 >
-                  <div className="lg:w-[30%] bg-purple-800 h-[15em] rounded-[2em] mx-3"></div>
+                  <div className="lg:w-[30%] bg-purple-800 h-[40vh] rounded-[2em] mx-3">
+                    <Image
+                      src="/entrepreneur.webp"
+                      width={1000}
+                      height={1000}
+                      className="w-full h-full object-cover rounded-[2em]"
+                      alt="business agency team"
+                    />
+                  </div>
                   <div className="lg:w-[70%] bg-pink-200 rounded-[2em] flex flex-col justify-center px-8 mx-3">
                     <h5 className="text-[1.2rem] font-semibold my-3">
                       {member.name}
                     </h5>
                     <p className="font-thin my-3">{member.role}</p>
                     <p className="text-sm my-3">
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Ullam mollitia vero, autem repudiandae, doloremque eius
-                      expedita tempora aliquid voluptates voluptatibus, illo
-                      rerum odit repellat fuga sequi voluptatem ipsum
-                      consequatur? Similique.
+                      {member.description}
                     </p>
                   </div>
                 </div>

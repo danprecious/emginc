@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const WorksDisplay = () => {
   return (
-    <section className="lg:flex justify-between px-16 items-center">
-      <div className="lg:w-[25%] lg:h-[50vh] rounded-[2em] bg-purple-800">
+    <section className="lg:flex justify-between lg:px-16 items-center">
+      <div className="lg:w-[25%] lg:h-[50vh] rounded-[2em] bg-purple-800 hidden lg:flex">
       <Image
               src="/pexels.webp"
               width={1000}
