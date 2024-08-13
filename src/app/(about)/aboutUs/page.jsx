@@ -39,7 +39,7 @@ const AboutPage = () => {
               {milestones.map((item, index) => {
                 return (
                   <div
-                    key={index}
+                    key={item.year}
                     className="border-l-4 border-purple-800 py-2 px-6 my-12"
                   >
                     <h4 className="font-bold text-[1.2rem] mb-3">
@@ -66,7 +66,7 @@ const AboutPage = () => {
             {teamMembers.map((member, index) => {
               return (
                 <div
-                  key={index}
+                  key={member.id}
                   className={`${member.xposition} flex flex-col lg:flex-row my-16 text-black`}
                 >
                   <div className="lg:w-[30%] bg-purple-800 h-[15em] rounded-[2em] mx-3"></div>

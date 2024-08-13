@@ -13,7 +13,7 @@ const WorkCards = () => {
       {works.map((work, index) => {
         return (
           <div
-            key={index}
+            key={work.id}
             className="lg:h-[60vh] lg:w-[15em] flex flex-col shadow-lg relative"
           >
             <div className="h-[80%] bg-purple-600">

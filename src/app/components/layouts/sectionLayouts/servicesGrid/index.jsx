@@ -7,7 +7,7 @@ const ServicesGrid = ({data}) => {
       <div className="my-grid2">
         {data.slice(0, 4).map((service, index) => {
           return (
-            <div className="col-center-around text-bgShade h-[22em] text-center rounded-[2em] p-6 dark:bg-gradient-dark shadow-lg">
+            <div key={service.id} className="col-center-around text-bgShade h-[22em] text-center rounded-[2em] p-6 dark:bg-gradient-dark shadow-lg">
               <div className="text-center justify-center flex py-5 text-[3rem]">{service.icon}</div>
               <h6 className="mb-3 font-bold">{service.service}</h6>
               <p className="text-sm my-3">{service.description}</p>

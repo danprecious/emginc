@@ -30,10 +30,10 @@ const ReviewSection = () => {
         </h1>
       </div>
       <div className="w-[60%] flex">
-        {reviewsData.map(({ reviewMessage, name, image, location }, index) => {
+        {reviewsData.map(({ reviewMessage, name, image, location, id }, index) => {
           return (
             <div
-              key={index}
+              key={id}
               className={`${
                 index == currentIndex ? "flex" : "hidden"
               } flex-col  transition-all]`}

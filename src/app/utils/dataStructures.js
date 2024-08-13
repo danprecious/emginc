@@ -1,6 +1,7 @@
 // QUICK NOTE: for the services, I want to create a different page for each services that would talk about the service in details.
 //  In the services pages, these would just be highlight... and then they can see more
 
+
 import {
   FaBox,
   FaBullhorn,
@@ -23,26 +24,32 @@ import {
 
 export const links = [
   {
+    id: 1,
     name: "Services",
     href: "/services",
     subLinks: [
       {
+        id: 1.1,
         name: "Total marketing package",
         href: "/services/total-marketing",
       },
       {
+        id: 1.2,
         name: "SEO marketing",
         href: "/services/seo-marketing",
       },
       {
+        id: 1.3,
         name: "Email marketing",
         href: "/services/email-marketing",
       },
       {
+        id: 1.4,
         name: "Marketing consulting",
         href: "/services/consulting",
       },
       {
+        id: 1.5,
         name: "Social media marketing",
         href: "/services/social-media-marketing",
       },
@@ -50,18 +57,22 @@ export const links = [
     icon: "",
   },
   {
+    id: 2,
     name: "About",
     href: "/aboutUs",
     subLinks: [
       {
+        id: 2.1,
         name: "About us",
         href: "/aboutUs",
       },
       {
+        id: 2.2,
         name: "Leave a review",
         href: "/aboutUs",
       },
       {
+        id: 2.3,
         name: "Career",
         href: "/aboutUs",
       },
@@ -69,14 +80,17 @@ export const links = [
     icon: "",
   },
   {
+    id: 3,
     href: "/works/case-studies",
     name: "Works",
     subLinks: [
       {
+        id: 3.1,
         name: "Portfolio",
         href: "/works/portfolio",
       },
       {
+        id: 3.2,
         name: "Case studies",
         href: "/works/case-studies",
       },
@@ -87,6 +101,7 @@ export const links = [
 
 export const services = [
   {
+    id: 1,
     service: "Total Marketing",
     description:
       "Our Total Marketing service offers a comprehensive approach to building your brand and reaching your target audience. We cover every aspect of marketing, from strategy development to execution, ensuring a cohesive and impactful presence across all channels.",
@@ -99,6 +114,7 @@ export const services = [
     coverImage: "",
   },
   {
+    id: 2,
     service: "Marketing Consulting",
     description:
       "Our Marketing Consulting service provides expert guidance and strategic insights to help you navigate the marketing landscape. We offer tailored advice and solutions to enhance your marketing strategies and achieve your business objectives.",
@@ -111,6 +127,7 @@ export const services = [
     coverImage: "",
   },
   {
+    id: 3,
     service: "SEO Marketing",
     description:
       "Our SEO Marketing service focuses on improving your website’s visibility on search engines. We use proven techniques and strategies to enhance your search rankings, drive organic traffic, and boost your online presence.",
@@ -123,6 +140,7 @@ export const services = [
     coverImage: "",
   },
   {
+    id: 4,
     service: "Email Marketing",
     description:
       "Our Email Marketing service helps you connect with your audience through targeted and personalized email campaigns. We design and execute effective email strategies to drive engagement, nurture leads, and boost conversions.",
@@ -135,6 +153,7 @@ export const services = [
     coverImage: "",
   },
   {
+    id: 5,
     service: "Social Media Marketing",
     description:
       "Our Social Media Marketing service focuses on leveraging social media platforms to build your brand, engage with your audience, and drive traffic to your website. We create and manage impactful social media campaigns that align with your business goals.",
@@ -150,16 +169,19 @@ export const services = [
 
 export const coreValues = [
   {
+    id: 1,
     title: "Innovation",
     icon: <FaRocket />,
     text: "Pushing boundaries to deliver fresh, creative solutions that keep your business ahead of the curve.",
   },
   {
+    id: 2,
     title: "Excellence",
     icon: <FaStar />,
     text: "Committed to delivering results with the highest standards, ensuring superior quality and outstanding performance in every project.",
   },
   {
+    id: 3,
     title: "Integrity",
     icon: <FaShieldAlt />,
     text: "Building lasting relationships based on trust and transparency, maintaining honesty and accountability in all our interactions.",
@@ -168,26 +190,33 @@ export const coreValues = [
 
 export const whyChooseUs = [
   {
+    id: 1,
     title: "Tailored Solutions",
     icon: <FaCogs />,
     text: "We offer customized strategies designed specifically for your unique business needs, ensuring that every solution is tailored to drive the best possible results for you.",
   },
   {
+    id: 2,
     title: "Expert Team",
     icon: <FaUsers />,
     text: "Our team comprises industry experts with a wealth of experience, committed to delivering high-quality results and providing strategic insights to elevate your business.",
   },
   {
+    id: 3,
     title: "Proven Results",
     icon: <FaChartLine />,
-    text: "We have a track record of success, consistently achieving outstanding results for our clients through effective and data-driven marketing strategies.",
+    text: "We have a track record of success, with proven results in helping businesses achieve their marketing goals and grow their brand presence.",
   },
   {
-    title: "End-to-End Service",
-    icon: <FaSuitcase />,
-    text: "From initial consultation to final implementation, we provide comprehensive services that cover every aspect of your marketing needs, ensuring a seamless and effective experience.",
+    id: 4,
+    title: "Client-Centric Approach",
+    icon: <FaHandshake />,
+    text: "Our approach is focused on understanding your business, listening to your needs, and working collaboratively to achieve your goals.",
   },
 ];
+
+
+
 
 export const whyChooseUs2 = [
   {
@@ -324,20 +353,25 @@ export const reviewsData = [
   },
 ];
 
+
 export const milestones = [
   {
+    id: 1,
     year: "2013",
     text: "In 2013, we embarked on our journey with a vision to revolutionize the marketing industry. Our early efforts were focused on building a strong foundation, establishing key partnerships, and developing innovative strategies. A significant achievement was our collaboration with Tech Solutions Inc. to launch their inaugural digital marketing campaign, which set a new standard in their industry and showcased our commitment to innovative solutions.",
   },
   {
+    id: 2,
     year: "2016",
     text: "By 2016, we had significantly expanded our service offerings and grown our client base. This milestone year was highlighted by our work with Global Tech Corp on a major rebranding initiative. We delivered a complete overhaul of their online presence, including a new website and a targeted social media campaign that resulted in a 40% increase in brand engagement and a 25% boost in sales. Our innovative approach and dedication to client success earned us widespread recognition.",
   },
   {
+    id: 3,
     year: "2018",
     text: "2018 was a transformative year as we embraced cutting-edge technologies and data-driven insights. One of our key projects was with Eco Solutions Ltd., where we implemented advanced analytics and automation solutions for their marketing campaigns. This not only optimized their ad spend but also led to a 50% increase in lead generation. Our expertise in integrating technology with marketing strategies solidified our reputation as a leader in the field.",
   },
   {
+    id: 4,
     year: "2023",
     text: "In 2023, we celebrated a decade of growth and innovation. A highlight of this year was our collaboration with Bright Future Enterprises to launch a global marketing campaign for their new product line. Our efforts included multi-channel advertising, influencer partnerships, and real-time performance tracking, which contributed to a record-breaking 60% increase in international sales. We expanded our global reach, launched new services, and achieved remarkable results for our clients, setting the stage for future successes.",
   },
@@ -345,6 +379,7 @@ export const milestones = [
 
 export const teamMembers = [
   {
+    id: 5,
     name: "Sophia Johnson",
     role: "Chief Executive Officer (CEO)",
     description:
@@ -352,6 +387,7 @@ export const teamMembers = [
     xposition: "",
   },
   {
+    id: 6,
     name: "Liam O'Connor",
     role: "Chief Marketing Officer (CMO)",
     description:
@@ -359,6 +395,7 @@ export const teamMembers = [
     xposition: "lg:flex-row-reverse",
   },
   {
+    id: 7,
     name: "Emma Martinez",
     role: "Head of Client Services",
     description:
@@ -366,6 +403,7 @@ export const teamMembers = [
     xposition: "",
   },
   {
+    id: 8,
     name: "Aiden Patel",
     role: "Senior Digital Strategist",
     description:
@@ -373,6 +411,7 @@ export const teamMembers = [
     xposition: "lg:flex-row-reverse",
   },
   {
+    id: 9,
     name: "Olivia Lee",
     role: "Creative Director",
     description:
@@ -383,6 +422,7 @@ export const teamMembers = [
 
 export const works = [
   {
+    id: 10,
     image: "/pexels4.webp",
     title: "Brand Revitalization for Tech Innovations Ltd.",
     description:
@@ -391,6 +431,7 @@ export const works = [
       "Revitalized the brand identity and marketing strategy for Tech Innovations Ltd., enhancing their market presence.",
   },
   {
+    id: 11,
     image: "/pexels9.webp",
     title: "Social Media Campaign for EcoGreen Solutions",
     description:
@@ -399,6 +440,7 @@ export const works = [
       "Executed a social media campaign for EcoGreen Solutions, boosting engagement and increasing online sales by 30%.",
   },
   {
+    id: 12,
     image: "/success.webp",
     title: "SEO Optimization for Urban Fashion Co.",
     description:

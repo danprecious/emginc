@@ -4,14 +4,17 @@ import React from "react";
 const Hero = () => {
   const stats = [
     {
+      id: 1,
       figure: "50K",
       description: "Happy customers",
     },
     {
+      id: 2,
       figure: "80K",
       description: "Total transactions",
     },
     {
+      id: 3,
       figure: "10+",
       description: "Years of experience",
     },
@@ -55,7 +58,7 @@ const Hero = () => {
       <div className="md:row-center-center col-center-center">
         {stats.map((stat, index) => {
           return (
-            <div key={index} className="col-center-center mx-8 my-4">
+            <div key={stat.id} className="col-center-center mx-8 my-4">
               <p className=" font-black text-[1.5rem] text-gradient">
                 {stat.figure}
               </p>

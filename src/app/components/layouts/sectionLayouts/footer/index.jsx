@@ -16,11 +16,11 @@ const Footer = () => {
          <div className="my-grid lg:w-[50%] md:px-8 ">
           {links.map((link, index) => {
             return (
-              <div key={index} className="text-white">
+              <div key={link.name} className="text-white">
                 <p className="font-semibold text-[1.2rem] py-5 text-gradient">{link.name}</p>
                 <div className="flex flex-col">
                   {link.subLinks.map((item, index) => {
-                    return <Link className="py-3 text-sm" href={item.href}>{item.name}</Link>;
+                    return <Link key={item.id} className="py-3 text-sm" href={item.href}>{item.name}</Link>;
                   })}
                 </div>
               </div>

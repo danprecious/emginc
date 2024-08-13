@@ -41,11 +41,11 @@ export const MobileNavBody = () => {
         <div className="my-grid px-3 py-4">
           {links.map((link, index) => {
             return (
-              <div key={index} className="text-white">
+              <div key={link.id} className="text-white">
                 <p className="font-semibold text-[1.5rem] py-5">{link.name}</p>
                 <div className="flex flex-col">
                   {link.subLinks.map((item, index) => {
-                    return <Link className="py-3 px-3" href={item.href}>{item.name}</Link>;
+                    return <Link key={item.id} className="py-3 px-3" href={item.href}>{item.name}</Link>;
                   })}
                 </div>
               </div>

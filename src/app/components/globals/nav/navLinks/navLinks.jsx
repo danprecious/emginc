@@ -18,7 +18,7 @@ const NavLinks = () => {
         {links.map((link, index) => {
           return (
             <div
-              key={link.name}
+              key={link.id}
               className="mx-3 relative"
               onMouseEnter={() => handleHover(link.name)}
               onMouseLeave={() => setActiveLink("")}
@@ -36,7 +36,7 @@ const NavLinks = () => {
                 <div className="absolute w-[20em] grid shadow-md rounded-2xl p-8  transition-all bg-white dark:bg-gradient-dark z-50">
                   {link.subLinks.map((item, index) => {
                     return (
-                      <Link key={item.name} href={item.href} className="py-4 hover:text-gradient">
+                      <Link key={item.id} href={item.href} className="py-4 hover:text-gradient">
                         {item.name}
                       </Link>
                     );
