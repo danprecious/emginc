@@ -29,7 +29,7 @@ export const MobileNavBody = () => {
 
   return (
     menuOpen && (
-      <div className="top-0 fixed h-full overflow-y-scroll w-full left-0 bg-black z-30 lg:hidden">
+      <div className="top-0 fixed h-full overflow-y-scroll w-full left-0 bg-black z-50 lg:hidden">
         <div className="flex justify-end relative my-5">
           <MobileNavButton />
         </div>

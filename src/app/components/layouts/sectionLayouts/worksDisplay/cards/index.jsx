@@ -34,7 +34,7 @@ const WorkCards = () => {
                 setOnHover(false);
                 // setWorkState("")
               }}
-              className={`text-center  bg-purple-800 text-white z-50 ${
+              className={`text-center  bg-purple-800 text-white z-30 ${
                 hover && work.title === workState
                   ? "h-[100%] absolute"
                   : "h-[35%]"
