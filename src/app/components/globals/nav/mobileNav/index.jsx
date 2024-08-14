@@ -29,7 +29,7 @@ export const MobileNavBody = () => {
 
   return (
     menuOpen && (
-      <div className="top-0 fixed h-full overflow-y-scroll w-full left-0 bg-black z-30">
+      <div className="top-0 fixed h-full overflow-y-scroll w-full left-0 bg-black z-30 lg:hidden">
         <div className="flex justify-end relative my-5">
           <MobileNavButton />
         </div>
@@ -68,8 +68,8 @@ export const MobileNavBody = () => {
           })}
         </div>
 
-        <div className="font-bold text-white text-[2rem] py-4 px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+        <div className="font-bold text-gradient text-[2rem] py-4 px-4 ">
+          Promotional marketing agency you can trust
         </div>
       </div>
     )

@@ -112,7 +112,7 @@ export const services = [
       "With our Total Marketing service, we provide an all-encompassing solution that integrates various marketing strategies and tools. We focus on creating a unified brand message, optimizing your marketing efforts, and delivering measurable results. Our team works closely with you to develop a personalized plan that aligns with your business objectives and maximizes your market potential. From digital advertising to content creation, we handle it all to ensure your brand stands out in a competitive landscape.",
     details2:
       "Our approach involves a detailed assessment of your current marketing efforts, identifying opportunities for improvement, and implementing a robust strategy tailored to your needs. We leverage data-driven insights to refine our tactics and ensure optimal performance. Our goal is to help you achieve long-term success by driving growth, enhancing brand visibility, and engaging your audience effectively. Trust us to be your partner in navigating the complexities of marketing and achieving your business goals.",
-    coverImage: "",
+    image: "/digital-marketing.webp",
   },
   {
     id: 2,
@@ -125,7 +125,7 @@ export const services = [
       "Our consulting service is designed to offer you expert advice on various aspects of marketing. We analyze your current strategies, identify areas for improvement, and provide actionable recommendations to optimize your marketing efforts. Whether you need help with brand positioning, campaign planning, or market research, our team is here to support you. We bring a wealth of experience and industry knowledge to ensure that your marketing strategies are effective and aligned with your goals.",
     details2:
       "We work closely with you to understand your unique challenges and opportunities. Our consultants provide valuable insights into market trends, customer behavior, and competitive analysis. We collaborate with you to develop a strategic plan that addresses your specific needs and drives meaningful results. Our goal is to empower you with the knowledge and tools needed to make informed decisions and achieve sustainable growth in your marketing initiatives.",
-    coverImage: "",
+    image: "/consulting.webp",
   },
   {
     id: 3,
@@ -138,7 +138,7 @@ export const services = [
       "With our SEO Marketing service, we employ a comprehensive approach to optimize your website for search engines. We conduct in-depth keyword research, perform technical SEO audits, and implement on-page and off-page strategies to improve your search engine rankings. Our team stays up-to-date with the latest SEO trends and algorithm changes to ensure that your website remains competitive. By enhancing your online visibility, we help you attract more qualified leads and drive sustainable growth.",
     details2:
       "Our SEO strategies are tailored to your specific business needs and goals. We focus on delivering measurable results by tracking key performance indicators and adjusting our tactics accordingly. Our goal is to increase your website’s search engine visibility, enhance user experience, and drive more organic traffic. Trust us to be your partner in achieving long-term SEO success and standing out in search engine results.",
-    coverImage: "",
+    image: "/seo.webp",
   },
   {
     id: 4,
@@ -151,7 +151,7 @@ export const services = [
       "Our Email Marketing service offers a strategic approach to reaching your audience through tailored email campaigns. We handle everything from designing visually appealing templates to crafting compelling content that resonates with your recipients. Our team segments your email list to ensure that messages are relevant and personalized. We also track campaign performance and optimize strategies to improve open rates, click-through rates, and overall engagement.",
     details2:
       "We leverage advanced analytics to measure the success of your email campaigns and make data-driven decisions. Our goal is to help you build stronger relationships with your audience, drive repeat business, and increase conversions. Whether you need to run promotional campaigns, send newsletters, or nurture leads, our email marketing solutions are designed to deliver results and enhance your communication strategy.",
-    coverImage: "",
+    image: "/typing.webp",
   },
   {
     id: 5,
@@ -164,7 +164,7 @@ export const services = [
       "Our Social Media Marketing service helps you harness the power of social media to grow your brand and connect with your audience. We develop and implement strategic social media campaigns that are designed to increase brand awareness, drive engagement, and generate leads. Our team creates compelling content, manages your social media profiles, and monitors performance to ensure that your campaigns achieve the desired results.",
     details2:
       "We use data-driven insights to tailor our social media strategies to your specific business needs. By analyzing audience behavior and trends, we optimize your campaigns for maximum impact. Our goal is to build a strong social media presence that resonates with your target audience and supports your overall marketing objectives. Partner with us to elevate your social media game and drive meaningful interactions with your brand.",
-    coverImage: "",
+    image: "/social-media.webp",
   },
 ];
 

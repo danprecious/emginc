@@ -21,11 +21,11 @@ const ServicesPage = () => {
           />
         </div>
         <div className="lg:w-[65%]">
-          <ServicesGrid data={services} />
+          <ServicesGrid data={services} btnText="Learn more"/>
         </div>
       </section>
 
-      <section className="lg:flex my-8 lg:mb-32 items-center lg:px-20 lg:justify-between py-8">
+      <section className="lg:flex my-8 lg:mb-32 items-center lg:px-20 lg:justify-between py-8 px-4">
         <div className="lg:w-[48%]">
           <div className="">
             <h1 className="text-[3rem] font-bold my-2">
@@ -43,7 +43,7 @@ const ServicesPage = () => {
           </div>
         </div>
         <div className="lg:w-[48%] flex py-6">
-          <div className="lg:h-[70vh] h-[60vh] lg:w-[50%]  mx-5 bg-purple-800 rounded-[2em]">
+          <div className="lg:h-[70vh] h-[60vh] lg:w-[50%] w-[50%]  mx-5 bg-purple-800 rounded-[2em]">
             <Image
               src="/marketing.webp"
               width={1000}
@@ -52,7 +52,7 @@ const ServicesPage = () => {
               alt="business agency team"
             />
           </div>
-          <div className="mx-5 lg:w-[50%] relative flex flex-col place-content-between">
+          <div className="mx-5 lg:w-[50%] w-[50%] relative flex flex-col place-content-between">
             <div className="w-full h-[48%] pb-5 rounded-[2em] bg-purple-200">
               <Image
                 src="/pexels5.webp"
@@ -75,11 +75,11 @@ const ServicesPage = () => {
         </div>
       </section>
 
-      <section className="">
+      <section className="px-4">
         <h3 className="text-center text-[3rem] font-bold">Why Choose Us</h3>
 
-        <div className="lg:flex my-8 lg:mb- lg:items-center lg:px-20 lg:justify-between py-8">
-          <div className="lg:w-[30%] lg:h-[80vh] rounded-[2em] lg:bg-purple-800">
+        <div className="lg:flex my-8 lg:mb- lg:items-center lg:px-20 lg:justify-between py-8 ">
+          <div className="lg:w-[30%] lg:h-[80vh] rounded-[2em] lg:bg-purple-800 mb-8">
             <Image
               src="/whyChooseUs.webp"
               width={1000}
@@ -89,7 +89,7 @@ const ServicesPage = () => {
             />
           </div>
 
-          <div className="lg:w-[65%]">
+          <div className="lg:w-[65%] px-4">
             {/* <div className="mb-8">
               <h1 className="text-[2.5rem] font-bold mb-5">We Offer Unique Services</h1>
               <p>
@@ -99,8 +99,8 @@ const ServicesPage = () => {
               </p>
             </div> */}
 
-            <div className="lg:[70%]">
-              <ServicesGrid data={whyChooseUs2} />
+            <div className="lg:[70%] mt-8">
+              <ServicesGrid data={whyChooseUs2} btnText="" />
             </div>
           </div>
         </div>

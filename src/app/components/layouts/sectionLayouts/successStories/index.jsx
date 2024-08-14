@@ -29,7 +29,7 @@ const ReviewSection = () => {
           Our Success Stories
         </h1>
       </div>
-      <div className="w-[60%] flex">
+      <div className="w-[70%] lg:w-[60%] flex">
         {reviewsData.map(({ reviewMessage, name, image, location, id }, index) => {
           return (
             <div
@@ -38,7 +38,7 @@ const ReviewSection = () => {
                 index == currentIndex ? "flex" : "hidden"
               } flex-col  transition-all]`}
             >
-              <p className="text-center py-5 text-[1.2rem]">
+              <p className="text-center py-5 lg:text-[1.2rem]">
                 "{reviewMessage}"
               </p>
               <div className="flex justify-center py-10 items-center">
@@ -53,13 +53,13 @@ const ReviewSection = () => {
       </div>
       <button
         onClick={handlePrev}
-        className="absolute md:left-10 left-5 top-[50%]"
+        className="absolute md:left-10 left-2 top-[50%]"
       >
         <BiLeftArrowCircle className="text-[2rem]" />
       </button>
       <button
         onClick={handlePrev}
-        className="absolute md:right-10 right-5 top-[50%]"
+        className="absolute md:right-10 right-2  top-[50%]"
       >
         <FaArrowCircleRight className="text-[2rem]" />
       </button>

@@ -2,7 +2,7 @@ import CustomButton from "@/app/components/globals/customButton";
 import { services, whyChooseUs2 } from "@/app/utils/dataStructures";
 
 
-const ServicesGrid = ({data}) => {
+const ServicesGrid = ({data, btnText}) => {
     return (
       <div className="my-grid2">
         {data.slice(0, 4).map((service, index) => {
@@ -12,7 +12,7 @@ const ServicesGrid = ({data}) => {
               <h6 className="mb-3 font-bold">{service.service}</h6>
               <p className="text-sm my-3">{service.description}</p>
               <div className="w-full flex py-2 justify-center">
-                <CustomButton href={service.href} text="Learn more" />
+                <CustomButton href={service.href} text={btnText} />
               </div>
             </div>
           );

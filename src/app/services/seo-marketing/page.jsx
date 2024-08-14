@@ -7,7 +7,7 @@ const SeoMarketing = () => {
 
   return (
     
-        <ServicePage image="/seo.webp" description={details} description2={details2} title={service}/>
+        <ServicePage image={image} description={details} description2={details2} title={service}/>
     
   )
 }

@@ -4,7 +4,7 @@ const PageLayout = ({ children, title }) => {
   return (
     <section className="lg:mt-10 mt-5">
       <div className="flex justify-center">
-        <h1 className="text-[3rem] font-bold text-center mb-20 text-gradient">
+        <h1 className="text-[3rem] font-bold text-center mb-20">
           {title}
         </h1>
       </div>

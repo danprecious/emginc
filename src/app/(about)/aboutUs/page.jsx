@@ -11,17 +11,17 @@ const AboutPage = () => {
     <PageLayout title="Who We Are">
       <div className="lg:px-10 px-6">
         <div className="lg:flex lg:px-5 px-1 lg:my-10 items-center">
-          <div className="lg:w-[50%] bg-purple-800 lg:h-[50vh] rounded-lg">
+          <div className="lg:w-[50%] bg-purple-800 lg:h-[50vh] h-[50vh] rounded-[2em]">
             <Image
-              src="/digital-marketing.webp"
+              src="/pexels4.webp"
               width={1000}
               height={1000}
               className="w-full h-full object-cover rounded-[2em]"
               alt="business agency team"
             />
           </div>
-          <div className="lg:w-[50%] flex flex-col justify-center lg:p-8 lg:ml-20">
-            <h3 className="text-[1.2rem] mb-3 font-semibold">Our Story</h3>
+          <div className="lg:w-[50%] flex flex-col justify-center lg:p-8 lg:ml-20 my-6">
+            <h3 className="text-[2rem] mb-3 font-bold lg:font-semibold">Our Story</h3>
             <p>
               At VistaVibe Marketing, our journey began with a vision to
               revolutionize the way businesses connect with their audience.
@@ -58,9 +58,9 @@ const AboutPage = () => {
                 );
               })}
             </div>
-            <div className="lg:w-[50%] mb-10 lg:mb-0 bg-purple-800 h-[100vh]">
+            <div className="lg:w-[50%] mb-10 lg:mb-0 bg-purple-800 h-[70vh] lg:h-[100vh] rounded-[2em]">
               <Image
-                src="/entrepreneur.webp"
+                src="/entrepreneur2.webp"
                 width={1000}
                 height={1000}
                 className="w-full h-full object-cover rounded-[2em]"
@@ -74,8 +74,7 @@ const AboutPage = () => {
           <div className="hidden lg:flex-row-reverse"></div>
           <div className="mb-20">
             <p className="text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis illum doloribus
+              A Team of passionate and talented marketers who have dominated the industry.
             </p>
           </div>
           <div>
@@ -85,16 +84,16 @@ const AboutPage = () => {
                   key={member.id}
                   className={`${member.xposition} flex flex-col lg:flex-row my-16 text-black`}
                 >
-                  <div className="lg:w-[30%] bg-purple-800 h-[40vh] rounded-[2em] mx-3">
+                  <div className="lg:w-[30%] bg-purple-800 h-[40vh] rounded-[2em] mx-3  lg:mb-0">
                     <Image
                       src="/entrepreneur.webp"
                       width={1000}
                       height={1000}
-                      className="w-full h-full object-cover rounded-[2em]"
+                      className="w-full h-full object-cover rounded-t-[2em] lg:rounded-[2em]"
                       alt="business agency team"
                     />
                   </div>
-                  <div className="lg:w-[70%] bg-pink-200 rounded-[2em] flex flex-col justify-center px-8 mx-3">
+                  <div className="lg:w-[70%] bg-slate-100 dark:bg-gradient-dark dark:text-white  lg:rounded-[2em] flex flex-col py-6 justify-center px-8 mx-3">
                     <h5 className="text-[1.2rem] font-semibold my-3">
                       {member.name}
                     </h5>
