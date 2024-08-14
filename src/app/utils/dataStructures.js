@@ -312,16 +312,16 @@ export const processes = [
 export const reviewsData = [
   {
     id: 1,
-    name: "Aisha K.",
-    location: "Lagos, Nigeria",
+    name: "Jonathan M.",
+    location: "Australia",
     image: "",
     reviewMessage:
       "I was impressed with the level of professionalism and creativity VistaVibe brought to our project. From the initial consultation to the final implementation, their team was always available to answer questions and provide guidance. The marketing campaign they developed for us was innovative and effective, helping us reach a wider audience than we ever imagined. VistaVibe is a partner you can trust!",
   },
   {
     id: 2,
-    name: "Emeka O.",
-    location: "Abuja, Nigeria",
+    name: "Melison Miles.",
+    location: "London, UK",
     image: "",
     reviewMessage:
       "Working with VistaVibe Marketing was a refreshing experience. They understood our local market and tailored their strategies to meet our specific needs. Their expertise in digital marketing helped us connect with our audience in ways we hadn’t considered before. The results were beyond our expectations, and we’ve seen a significant boost in customer engagement. I highly recommend VistaVibe!",
