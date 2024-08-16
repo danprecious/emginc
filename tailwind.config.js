@@ -1,3 +1,5 @@
+const {fontFamily} = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -8,12 +10,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: "var(--bg-color)",
-        textColor: "var(--text-color)",
-        textShade: "var(--text-color-shade)",
-        bgShade: "var(--bg-color-shade)",
-        gradient: "var(--gradient-color)",
+        primary: "var(--primary-color)",
+        secondary: "var(--secondary-color)",
+        accent: "var(--accent-color)",
+        primaryShade: "var(--primary-shade)",
+        primaryContrast: "var(--primary-contrast)",
+        contrastShade: "var(--primary-contrast-shade)",
+        // gradient: "var(--gradient-color)",
       },
+      fontFamily: {
+        heroFont: ['var(--font-heroFont)', ...fontFamily.sans]
+      }
     },
   },
   plugins: [],

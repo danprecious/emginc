@@ -278,7 +278,7 @@ export const processes = [
     step: "STEP ONE",
     stage: "01",
     title: "Discovery & Research",
-    text: "Our journey begins with a thorough discovery and research phase. We dive deep into understanding your business, market, and audience. Through comprehensive analysis and research, we identify key opportunities and challenges. This stage is crucial for developing a strategy that aligns with your goals and sets the foundation for all subsequent steps.",
+    text: "Our journey begins with a thorough discovery and research phase. We dive deep into understanding your business, market, and audience. Through comprehensive analysis and research, we identify key opportunities and challenges.",
   },
   {
     icon: <FaChartLine />,
@@ -287,7 +287,7 @@ export const processes = [
     step: "STEP TWO",
     stage: "02",
     title: "Strategy Development",
-    text: "Based on our research findings, we craft a tailored marketing strategy. This involves setting clear objectives, defining target audiences, and outlining actionable plans. Our team develops a strategic roadmap that integrates innovative approaches with proven tactics to achieve your business goals. We ensure the strategy is flexible to adapt to any market changes.",
+    text: "Based on our research findings, we craft a tailored marketing strategy. This involves setting clear objectives, defining target audiences, and outlining actionable plans. Our team develops a strategic roadmap that integrates innovative approaches with proven tactics to achieve your business goals",
   },
   {
     icon: <FaCogs />,

@@ -11,7 +11,7 @@ const ServicesPage = () => {
   return (
     <div>
       <section className="lg:flex my-8 lg:mb-32 items-center lg:px-20 lg:justify-between px-5">
-        <div className="lg:w-[30%] bg-purple-800 lg:h-[75vh] h-[60vh] rounded-[2em] mb-8 lg:mb-0">
+        <div className="lg:w-[30%] bg-primary lg:h-[75vh] h-[60vh] rounded-[2em] mb-8 lg:mb-0">
           <Image
             src="/totalMarketing.webp"
             width={1000}
@@ -32,7 +32,7 @@ const ServicesPage = () => {
               We are a Professional Agency, Committed to Excellence
             </h1>
           </div>
-          <div className="lg:h-[35vh] my-2 rounded-[2em] bg-purple-800">
+          <div className="lg:h-[35vh] my-2 rounded-[2em] bg-primary">
             <Image
               src="/working.webp"
               width={1000}
@@ -43,7 +43,7 @@ const ServicesPage = () => {
           </div>
         </div>
         <div className="lg:w-[48%] flex py-6">
-          <div className="lg:h-[70vh] h-[60vh] lg:w-[50%] w-[50%]  mx-5 bg-purple-800 rounded-[2em]">
+          <div className="lg:h-[70vh] h-[60vh] lg:w-[50%] w-[50%]  mx-5 bg-primary rounded-[2em]">
             <Image
               src="/marketing.webp"
               width={1000}
@@ -79,7 +79,7 @@ const ServicesPage = () => {
         <h3 className="text-center text-[3rem] font-bold">Why Choose Us</h3>
 
         <div className="lg:flex my-8 lg:mb- lg:items-center lg:px-20 lg:justify-between py-8 ">
-          <div className="lg:w-[30%] lg:h-[80vh] rounded-[2em] lg:bg-purple-800 mb-8">
+          <div className="lg:w-[30%] lg:h-[80vh] rounded-[2em] lg:bg-primary mb-8">
             <Image
               src="/whyChooseUs.webp"
               width={1000}

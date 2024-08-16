@@ -23,7 +23,7 @@ const ReviewSection = () => {
   };
 
   return (
-    <section className="flex justify-center flex-col items-center relative mt-52 lg:mx-20 py-3">
+    <section className="flex justify-center flex-col items-center relative lg:mt-52 lg:mx-20 py-3">
       <div>
         <h1 className="text-[3rem] font-bold mb-12 text-center p-3">
           Our Success Stories

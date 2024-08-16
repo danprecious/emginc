@@ -16,14 +16,14 @@ const WorkCards = () => {
             key={work.id}
             className="h-[60vh] w-[15em]  lg:w-[15em] flex flex-col shadow-lg relative"
           >
-            <div className="h-[80%] bg-purple-600">
-            <Image
-              src={work.image}
-              width={1000}
-              height={1000}
-              className="w-full h-full object-cover"
-              alt="business agency team"
-            />
+            <div className="h-[80%] bg-primary">
+              <Image
+                src={work.image}
+                width={1000}
+                height={1000}
+                className="w-full h-full object-cover"
+                alt="business agency team"
+              />
             </div>
             <div
               onMouseEnter={() => {
@@ -34,7 +34,7 @@ const WorkCards = () => {
                 setOnHover(false);
                 // setWorkState("")
               }}
-              className={`text-center  bg-purple-800 text-white z-30 ${
+              className={`text-center  bg-primary text-white z-30 ${
                 hover && work.title === workState
                   ? "h-[100%] absolute"
                   : "h-[35%]"
