@@ -25,10 +25,7 @@ const Hero = () => {
 
   return (
     <div className="col-center-center md:mt- lg:mt-12 mt-6">
-      <p className="font-semibold opacity-50 text-[10px] text-center">
-        CONSULTING MARKETING DESIGN
-      </p>
-
+      
       <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}
