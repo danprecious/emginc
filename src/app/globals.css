@@ -2,69 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-  /* @apply border border-purple-400; */
+* {
+  /* @apply border border-lime-700; */
 }
 
 :root {
- --gradient-color: linear-gradient(to top right, rgb(117, 7, 207), rgb(76, 0, 197), rgb(194, 12, 218), rgb(149, 19, 255));
- --gradient-color2: linear-gradient(to top right, rgb(7, 1, 10), rgb(4, 0, 5), rgb(10, 0, 12), rgb(45, 1, 65));
- --gradient-color3: linear-gradient(to  right, rgb(110, 10, 224), rgba(160, 8, 248, 0), rgba(170, 170, 170, 0));
- --bg-color: white;
- --text-color: rgb(10, 10, 10);
- --bg-color-shade: black;
- --text-color-shade: white;
+  --primary-color: rgb(7, 7, 7);
+  --secondary-color: rgb(47, 219, 47);
+  --primary-shade: rgb(10, 15, 15);
+  --accent-color: rgb(255, 182, 47);
+  --primary-contrast: white;
+  --primary-contrast-shade: rgb(248, 248, 248);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color-shade: black;
-    --bg-color-shade: white;
-  --bg-color: rgb(3, 0, 3);
-  --text-color: rgb(248, 248, 248);
+    --primary-color: white;
+    --primary-shade: rgb(247, 247, 247);
+    --primary-contrast: rgb(7, 7, 7);
+    --primary-contrast-shade: rgb(34, 34, 34);
   }
 }
 
-.tests{
-  background-color: linear-gradient(top-right, rgb(129, 31, 129), rgb(221, 69, 95));
+.tests {
+  background-color: linear-gradient(
+    top-right,
+    rgb(129, 31, 129),
+    rgb(221, 69, 95)
+  );
 }
-
 
 @layer utilities {
-
-
-  .bg-section-gradient{
+  .bg-section-gradient {
     background: var(--gradient-color3);
   }
-  .bg-gradient{
+  .bg-gradient {
     background: var(--gradient-color);
   }
-  .bg-gradient-dark{
+  .bg-gradient-dark {
     background: var(--gradient-color2);
   }
-  .text-gradient{
-  @apply text-transparent bg-clip-text inline-block ;
-  background-image: var(--gradient-color);
+  .text-gradient {
+    @apply text-transparent bg-clip-text inline-block;
+    background-image: var(--gradient-color);
   }
 
   .text-balance {
     text-wrap: balance;
   }
-  .col-between{
+  .col-between {
     @apply flex flex-col justify-between;
   }
-  .col-around{
+  .col-around {
     @apply flex flex-col justify-around;
   }
-  .col-center-around{
+  .col-center-around {
     @apply flex flex-col justify-center place-content-around;
   }
-  .col-center{
+  .col-center {
     @apply flex flex-col justify-center;
   }
 
-  .row-center{
+  .row-center {
     @apply flex flex-row justify-center;
   }
 
@@ -76,21 +75,21 @@
     @apply flex flex-col justify-center items-center;
   }
 
-  .my-grid{
+  .my-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
     /* justify-items: center; */
     gap: 2em;
     color: black;
   }
-  .my-grid2{
+  .my-grid2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     justify-items: center;
     gap: 2em;
     color: black;
   }
-  .my-grid3{
+  .my-grid3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     justify-items: center;
@@ -100,22 +99,20 @@
 }
 
 @layer components {
-  .big-text{
+  .big-text {
     /* letter-spacing: .2em; */
   }
-  .herotext{
+  .herotext {
     line-height: 2em;
   }
 
   .worksCard {
-    
     width: 100%;
     height: 20%;
     transition: 2s ease;
   }
-  .worksCard:hover{
+  .worksCard:hover {
     position: absolute;
     height: 100%;
-    
   }
 }

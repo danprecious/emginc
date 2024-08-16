@@ -59,7 +59,9 @@ const LandingPage = () => {
         position="lg:flex-row"
       />
 
-      <CtaSection />
+      <div className="px-4">
+        <CtaSection />
+        </div>
 
       <Footer />
     </section>

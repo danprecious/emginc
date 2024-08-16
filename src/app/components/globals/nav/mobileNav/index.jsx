@@ -68,7 +68,7 @@ export const MobileNavBody = () => {
           })}
         </div>
 
-        <div className="font-bold text-gradient text-[2rem] py-4 px-4 ">
+        <div className="font-bold text-[2rem] py-4 px-4 ">
           Promotional marketing agency you can trust
         </div>
       </div>

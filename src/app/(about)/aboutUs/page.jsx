@@ -48,7 +48,7 @@ const AboutPage = () => {
                 return (
                   <div
                     key={item.year}
-                    className="border-l-4 border-purple-800 py-2 px-6 my-12"
+                    className="border-l-4 border-primary py-2 px-6 my-12"
                   >
                     <h4 className="font-bold text-[1.2rem] mb-3">
                       {item.year}
@@ -58,7 +58,7 @@ const AboutPage = () => {
                 );
               })}
             </div>
-            <div className="lg:w-[50%] mb-10 lg:mb-0 bg-purple-800 h-[70vh] lg:h-[100vh] rounded-[2em]">
+            <div className="lg:w-[50%] mb-10 lg:mb-0 bg-primary h-[70vh] lg:h-[100vh] rounded-[2em]">
               <Image
                 src="/entrepreneur2.webp"
                 width={1000}
@@ -84,7 +84,7 @@ const AboutPage = () => {
                   key={member.id}
                   className={`${member.xposition} flex flex-col lg:flex-row my-16 text-black`}
                 >
-                  <div className="lg:w-[30%] bg-purple-800 h-[40vh] rounded-[2em] mx-3  lg:mb-0">
+                  <div className="lg:w-[30%] bg-primary h-[40vh] rounded-[2em] mx-3  lg:mb-0">
                     <Image
                       src="/entrepreneur.webp"
                       width={1000}
