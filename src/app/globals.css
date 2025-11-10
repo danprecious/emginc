@@ -13,7 +13,12 @@
   --accent-color: rgb(255, 182, 47);
   --primary-contrast: white;
   --primary-contrast-shade: rgb(248, 248, 248);
-}
+  --gradient-color: linear-gradient(
+    to right,
+    var(--primary-contrast),
+    var(--secondary-color)
+  );
+} 
 
 @media (prefers-color-scheme: dark) {
   :root {
